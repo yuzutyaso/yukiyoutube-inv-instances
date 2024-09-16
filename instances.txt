@@ -26,7 +26,7 @@
 
   r"https://invidious.adminforge.de", #追加
   r"https://invidious.drgns.space/",
-  r"invidious.einfachzocken.eu/", # 追加
+  r"https://invidious.einfachzocken.eu/", # 追加
   r"https://invidious.fdn.fr/",
   r"https://invidious.jing.rocks/",
   # DNS r"https://invidious.materialio.us/",

@@ -43,6 +43,6 @@
   r"https://invidious.slipfox.xyz/",
   r"https://invidious.tiekoetter.com/",
   r"https://invidious.weblibre.org/",
-  r"https://invidious.yourdevice.ch" # 追加
+  r"https://invidious.yourdevice.ch/" # 追加
   
 ]

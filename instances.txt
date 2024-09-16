@@ -17,25 +17,32 @@
   
   # DNS r"https://inv.bp.projectsegfau.lt/",
   r"https://inv.nadeko.net/",
+  r"https://iv.nboeck.de/", # 追加
+  r"https://iv.nowhere.moe/", # 追加
   r"https://inv.privacy.com.de/",
   r"https://inv.riverside.rocks/",
   r"https://inv.tux.pizza/",
   r"https://inv.vern.cc/",
-  
+
+  r"https://invidious.adminforge.de", #追加
   r"https://invidious.drgns.space/",
+  r"invidious.einfachzocken.eu/", # 追加
   r"https://invidious.fdn.fr/",
   r"https://invidious.jing.rocks/",
   # DNS r"https://invidious.materialio.us/",
   r"https://invidious.namazso.eu/",
   r"https://invidious.nerdvpn.de/", # 遅い
   r"https://invidious.perennialte.ch/",
+  r"https://invidious.privacydev.net", # 追加
   r"https://invidious.privacyredirect.com/",
   r"https://invidious.private.coffee/",
   # DNS r"https://invidious.protokolla.fi/",
+  r"https://invidious.reallyaweso.me/", # 追加
   # DNS r"https://invidious.rhyshl.live/",
   # DNS r"https://invidious.sethforprivacy.com/",
   r"https://invidious.slipfox.xyz/",
   r"https://invidious.tiekoetter.com/",
-  r"https://invidious.weblibre.org/"
+  r"https://invidious.weblibre.org/",
+  r"https://invidious.yourdevice.ch" # 追加
   
 ]

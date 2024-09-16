@@ -9,7 +9,7 @@
 
   r"https://yewtu.be/",
 
-  r"https://youtube.076.ne.jp/",
+  # 使えない r"https://youtube.076.ne.jp/",
   
   r"https://yt.cdaut.de/",
   
@@ -18,7 +18,7 @@
   r"https://invidious.jing.rocks/",
   # DNS r"https://invidious.materialio.us/",
   r"https://invidious.namazso.eu/",
-  r"https://invidious.nerdvpn.de/",
+  r"https://invidious.nerdvpn.de/", # 遅い
   r"https://invidious.perennialte.ch/",
   r"https://invidious.privacyredirect.com/",
   r"https://invidious.private.coffee/",

@@ -2,6 +2,7 @@
   # DNS r"https://invidio.xamh.de/",
   
   r"https://iv.datura.network/",
+  r"https://iv.ggtyler.dev/", # 追加
 
   r"https://vid.puffyan.us/",
 
@@ -12,6 +13,14 @@
   # 使えない r"https://youtube.076.ne.jp/",
   
   r"https://yt.cdaut.de/",
+
+  
+  # DNS r"https://inv.bp.projectsegfau.lt/",
+  r"https://inv.nadeko.net/",
+  r"https://inv.privacy.com.de/",
+  r"https://inv.riverside.rocks/",
+  r"https://inv.tux.pizza/",
+  r"https://inv.vern.cc/",
   
   r"https://invidious.drgns.space/",
   r"https://invidious.fdn.fr/",
@@ -27,13 +36,6 @@
   # DNS r"https://invidious.sethforprivacy.com/",
   r"https://invidious.slipfox.xyz/",
   r"https://invidious.tiekoetter.com/",
-  r"https://invidious.weblibre.org/",
-  
-  # DNS r"https://inv.bp.projectsegfau.lt/",
-  r"https://inv.nadeko.net/",
-  r"https://inv.privacy.com.de/",
-  r"https://inv.riverside.rocks/",
-  r"https://inv.tux.pizza/",
-  r"https://inv.vern.cc/"
+  r"https://invidious.weblibre.org/"
   
 ]

@@ -10,10 +10,10 @@ function checkInstance() {
   let not_added_instance = [];
 
   // 追加されていないものがあれば配列に追加
-  for(let i = 0; i < responseJSON.length; i++){
+  for(let i = 0; i < response_JSON.length; i++){
     const instance_url = 'https://' + response_JSON[i][0] + '/';
 
-    if(responseJSON[i][1]['api'] && !repositry_instances.includes(instance_url)){
+    if(response_JSON[i][1]['api'] && !repositry_instances.includes(instance_url)){
       not_added_instance.push(instance_url);
       // console.log(instance_url);
     }
@@ -25,10 +25,10 @@ function checkInstance() {
 
 // instances.txtから取得、整形しreturn
 function getRepositryInstances() {
-  const res = UrlFetchApp.fetch('https://raw.githubusercontent.com/LunaKamituki/yukiyoutube-inv-instances/main/instances.txt');
-  const text = res.getContentText().replace('[', '').replace(']', '');
+  const repositryInstances = UrlFetchApp.fetch('https://raw.githubusercontent.com/LunaKamituki/yukiyoutube-inv-instances/main/instances.txt');
+  const str = repositryInstances.getContentText().replace('[', '').replace(']', '');
 
-  return trim(text);
+  return trim(str);
 }
 
 // コメントアウトされている箇所などを''にreplace
@@ -36,4 +36,5 @@ function trim(str){
   return str.replace(/#.*\s*/g, '').replace(/r"/g, '').replace(/"/g, '').replace(/\s/g, '').split(',');
 }
 
+// 結果を表示
 Logger.log(checkInstance())

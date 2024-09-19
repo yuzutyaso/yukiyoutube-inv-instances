@@ -9,5 +9,5 @@
   ```
 apis = ast.literal_eval(requests.get('https://raw.githubusercontent.com/LunaKamituki/yukiyoutube-inv-instances/main/instances.txt').text)
   ```
-に置き換える。
+に置き換える。<br>
   4.（設定によっては自動で行われる）deployする（方法等は調べて下さい。）

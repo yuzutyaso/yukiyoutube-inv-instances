@@ -1,4 +1,4 @@
-[/instances.txt]はInvidiousのインスタンスが、Python3のlist（str）で入っています。<br>
+instances.txtにはInvidiousのインスタンスが、Python3のlist（str）で入っています。<br>
 <a href="https://api.invidious.io">InvのAPI</a><br>
 <a href="https://api.invidious.io/instances.json?pretty=1&sort_by=type,users">そのJSON版</a>
 

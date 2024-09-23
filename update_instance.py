@@ -89,19 +89,16 @@ def log(message):
 async def fetch(session, url):
     """非同期にURLからデータを取得する関数"""
     print(f"Fetching {url}")
-    try{
-        async with session.get(url + 'api/v1/search?q=test&page=1&hl=jp') as response:
-            return await response
-    }catch(e){
-        rerurn {'status_code': 'error'}
-    }
+    async with session.get(url + 'api/v1/search?q=test&page=1&hl=jp') as response:
+        return await response
+            
 async def main():
     log("タスク開始")
     """メインの非同期処理を行う関数"""
     urls = urls_str.splitlines()
     
     async with aiohttp.ClientSession() as session:
-        tasks = [fetch(session, url) for url in urls]
+        tasks = [try{fetch(session, url)}catch(e){e.message} for url in urls]
         
         print("Starting tasks...")
         # 非同期タスクを開始する前にメッセージを出力
@@ -112,7 +109,11 @@ async def main():
         
         print("Tasks completed. Results:")
         for result in results:
-            print(result.status_code)  # 結果の最初の100文字を表示
+            try{
+                print(result.status_code)  # 結果の最初の100文字を表示
+            }catch(e){
+                print(result)
+            }
     
     log("タスク終了")
 

@@ -70,7 +70,6 @@ https://t.xtos.us/
 https://www.browserling.com/browse/win/7/chrome/92/
 https://youtube.com/
 https://yt.dorper.me/
-https://tube.mha.fi/
 https://trashtube.tinfoil-hat.net/
 https://yt.thechangebook.org/
 https://invidious.reallyaweso.me/

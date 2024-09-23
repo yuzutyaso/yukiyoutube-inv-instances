@@ -3,7 +3,6 @@
 import datetime
 import aiohttp
 import asyncio
-import ast
 
 start = datetime.datetime.now()
 
@@ -96,7 +95,7 @@ async def fetch(session, url):
 async def main():
     log("タスク開始")
     """メインの非同期処理を行う関数"""
-    urls = ast.literal_eval(urls_str)
+    urls = urls_str.splitlines()
     
     async with aiohttp.ClientSession() as session:
         tasks = [fetch(session, url) for url in urls]

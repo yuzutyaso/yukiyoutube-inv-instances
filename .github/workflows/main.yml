@@ -1,4 +1,4 @@
-name: Manual Trigger
+name: Manual Trigger -python
 
 on: [ workflow_dispatch ]
 
@@ -7,4 +7,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - run: echo Hello, world!
+    - uses: actions/checkout@v2
+    - name: Setup Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+        architecture: 'x64'
+    - name: Get Python version
+      run: python -V
+    - name: Run Python
+    - run: python update_instance.py

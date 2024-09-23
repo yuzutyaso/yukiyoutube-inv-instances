@@ -98,7 +98,7 @@ async def main():
     urls = urls_str.splitlines()
     
     async with aiohttp.ClientSession() as session:
-        tasks = [try{fetch(session, url)}catch(e){e.message} for url in urls]
+        tasks = [fetch(session, url) for url in urls]
         
         print("Starting tasks...")
         # 非同期タスクを開始する前にメッセージを出力
@@ -109,11 +109,7 @@ async def main():
         
         print("Tasks completed. Results:")
         for result in results:
-            try{
-                print(result.status_code)  # 結果の最初の100文字を表示
-            }catch(e){
-                print(result)
-            }
+            print(result.text[:100])  # 結果の最初の100文字を表示
     
     log("タスク終了")
 

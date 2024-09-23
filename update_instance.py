@@ -89,9 +89,12 @@ def log(message):
 async def fetch(session, url):
     """非同期にURLからデータを取得する関数"""
     print(f"Fetching {url}")
-    async with session.get(url + 'api/v1/search?q=test&page=1&hl=jp') as response:
-        return await response.text()
-
+    try{
+        async with session.get(url + 'api/v1/search?q=test&page=1&hl=jp') as response:
+            return await response
+    }catch(e){
+        rerurn {'status_code': 'error'}
+    }
 async def main():
     log("タスク開始")
     """メインの非同期処理を行う関数"""
@@ -109,7 +112,7 @@ async def main():
         
         print("Tasks completed. Results:")
         for result in results:
-            print(result[:100])  # 結果の最初の100文字を表示
+            print(result.status_code)  # 結果の最初の100文字を表示
     
     log("タスク終了")
 

@@ -21,7 +21,7 @@
   r"https://invidious.chunboan.zone/", # 追加
   r"https://invidious.drgns.space/",
   r"https://invidious.einfachzocken.eu/", # 追加
-  r"https://invidious.ethibox.fr/", # 追加
+  # 動画読み込み不可 r"https://invidious.ethibox.fr/", # 追加
   r"https://invidious.fdn.fr/",
   r"https://invidious.flokinet.to/", # 追加
   r"https://invidious.jing.rocks/",

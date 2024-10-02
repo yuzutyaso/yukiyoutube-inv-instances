@@ -60,8 +60,6 @@
   r"https://iv.nboeck.de/", # 追加
   r"https://iv.nowhere.moe/", # 追加
 
-  r"https://monocles.live/", # 追加
-
   r"https://tube.netflux.io/", # 追加
 
   r"https://tv.metaversum.wtf/", # 追加

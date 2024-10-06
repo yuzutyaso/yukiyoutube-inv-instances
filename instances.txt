@@ -75,7 +75,7 @@
   r"https://yewtu.be/",
 
   # 使えない r"https://youtube.076.ne.jp/",
-  r"https://youtube.alt.tyil.nl/", # 追加
+  # 動画読み込み不可 r"https://youtube.alt.tyil.nl/", # 追加
   r"https://youtube.lurkmore.com/", # 追加
   r"https://youtube.mosesmang.com/", # 追加
   r"https://youtube.privacyplz.org/", # 追加

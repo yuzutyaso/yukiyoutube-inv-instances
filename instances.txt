@@ -37,7 +37,7 @@
   r"https://invidious.private.coffee/",
   r"https://invidious.projectsegfau.lt/", # 追加
   # DNS r"https://invidious.protokolla.fi/",
-  r"https://invidious.qwik.space/", # 追加
+  # 動画取得不可 r"https://invidious.qwik.space/", # 追加
   r"https://invidious.reallyaweso.me/", # 追加
   # DNS r"https://invidious.rhyshl.live/",
   # DNS r"https://invidious.sethforprivacy.com/",

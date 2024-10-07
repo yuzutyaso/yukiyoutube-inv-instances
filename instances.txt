@@ -1,6 +1,4 @@
 [
-  r"https://clips.im.allmendenetz.de/", # 追加
-
   # DNS r"https://inv.bp.projectsegfau.lt/",
 
   r"https://inv.nadeko.net/",

@@ -1,3 +1,5 @@
 [
-  r"https://inv.nadeko.net/"
+  "https://invidious.jing.rocks/",
+  "https://invidious.nerdvpn.de/",
+  "https://inv.nadeko.net/"
 ]

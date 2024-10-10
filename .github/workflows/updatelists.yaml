@@ -1,0 +1,9 @@
+on:
+  schedule:
+    - cron:  '*/8 * * * *'
+
+jobs:
+  updateinstances:
+    runs-on:
+    steps:
+      - run: python3 update_instance.py

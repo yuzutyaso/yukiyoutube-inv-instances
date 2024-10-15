@@ -48,7 +48,7 @@
   r"https://invidious.varishangout.net/", # 追加
   r"https://invidious.vern.cc/", # 追加
   r"https://invidious.weblibre.org/",
-  r"https://invidious.yourdevice.ch/" # 追加
+  r"https://invidious.yourdevice.ch/", # 追加
   r"https://invidious.zapashcanon.fr/", # 追加
   
   r"https://iteroni.com/", # 追加

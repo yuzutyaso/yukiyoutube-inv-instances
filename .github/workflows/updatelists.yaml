@@ -6,4 +6,4 @@ jobs:
   updateinstances:
     runs-on:
     steps:
-      - run: python3 ../../../update_instance.py
+      - run: python3 /update_instance.py

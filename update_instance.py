@@ -29,14 +29,14 @@ channel = fetch('/channles/@cosmobsp', apis_list)
 comment = fetch('/comments/shs0rAiwsGQ', apis_list)
 
 
-with open('./videos_apis', mode="w") as f:
+with open('/videos_apis', mode="w") as f:
     f.write(list(set(videos)))
 
-with open('./search_apis', mode="w") as f:
+with open('/search_apis', mode="w") as f:
     f.write(list(set(search)))
 
-with open('./channel_apis', mode="w") as f:
+with open('/channel_apis', mode="w") as f:
     f.write(list(set(channel)))
 
-with open('./comment_apis', mode="w") as f:
+with open('/comment_apis', mode="w") as f:
     f.write(list(set(comment)))

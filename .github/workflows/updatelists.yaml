@@ -4,6 +4,20 @@ on:
 
 jobs:
   updateinstances:
-    runs-on:
+    runs-on: ubuntu-latest
     steps:
-      - run: python3 /update_instance.py
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Python Setup
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
+
+      - name: Setup Poetry
+        uses: Gr1N/setup-poetry@v7
+
+      - name: Run poetry install
+        run: poetry install
+
+      - name: Run tests
+        run: poetry run python -m update_instance

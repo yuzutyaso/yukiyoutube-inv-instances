@@ -1,16 +1,11 @@
-[
-  "https://inv.nadeko.net/",
-  "https://invidious.0011.lt/",
-  "https://invidious.baczek.me/",
-  "https://invidious.ethibox.fr/",
-  "https://invidious.flokinet.to/",
-  "https://invidious.nietzospannend.nl/",
-  "https://invidious.qwik.space/",
-  "https://y.com.sb/",
-  "https://youtube.privacyplz.org/",
-  "https://yt.yoc.ovh/",
-  "https://invidious.jing.rocks/",
-  "https://invidious.nerdvpn.de/",
-  "https://invidious.baczek.me/",
-  "https://invidious.flokinet.to/"
-]
+['https://invidious.qwik.space/',
+ 'https://invidious.0011.lt/',
+ 'https://invidious.ethibox.fr/',
+ 'https://invidious.nietzospannend.nl/',
+ 'https://y.com.sb/',
+ 'https://yt.yoc.ovh/',
+ 'https://invidious.0011.lt/',
+ 'https://invidious.nietzospannend.nl/',
+ 'https://y.com.sb/',
+ 'https://youtube.lurkmore.com/',
+ 'https://yt.yoc.ovh/']

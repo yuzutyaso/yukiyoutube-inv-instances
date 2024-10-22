@@ -1,5 +1,6 @@
-['https://invidious.baczek.me/',
- 'https://invidious.ethibox.fr/',
- 'https://invidious.nietzospannend.nl/',
+['https://invidious.qwik.space/',
+ 'https://invidious.0011.lt/',
+ 'https://invidious.flokinet.to/',
+ 'https://y.com.sb/',
  'https://youtube.lurkmore.com/',
  'https://yt.yoc.ovh/']

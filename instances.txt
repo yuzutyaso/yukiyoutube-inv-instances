@@ -1,6 +1,8 @@
 ['https://invidious.qwik.space/',
+ 'https://youtube.privacyplz.org/',
  'https://invidious.0011.lt/',
- 'https://invidious.flokinet.to/',
- 'https://y.com.sb/',
+ 'https://invidious.baczek.me/',
+ 'https://invidious.ethibox.fr/',
+ 'https://rust.oskamp.nl/',
  'https://youtube.lurkmore.com/',
  'https://yt.yoc.ovh/']

@@ -2,7 +2,7 @@
  'https://invidious.0011.lt/',
  'https://invidious.jing.rocks/',
  'https://youtube.privacyplz.org/',
- 'https://invidious.qwik.space/'
+ 'https://invidious.qwik.space/',
  'https://invidious.nietzospannend.nl/',
  'https://invidious.ethibox.fr/',
  'https://rust.oskamp.nl/',

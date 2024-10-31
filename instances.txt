@@ -1,12 +1,14 @@
 [
  'https://invidious.0011.lt/',
- 'https://invidious.jing.rocks/',
- 'https://youtube.privacyplz.org/',
- 'https://invidious.qwik.space/',
- 'https://invidious.nietzospannend.nl/',
+ 'https://invidious.baczek.me/',
  'https://invidious.ethibox.fr/',
+ 'https://invidious.flokinet.to/',
+ 'https://invidious.jing.rocks/',
+ 'https://invidious.nietzospannend.nl/',
+ 'https://invidious.qwik.space/',
  'https://rust.oskamp.nl/',
  'https://y.com.sb/',
  'https://youtube.lurkmore.com/',
+ 'https://youtube.privacyplz.org/',
  'https://yt.yoc.ovh/'
 ]

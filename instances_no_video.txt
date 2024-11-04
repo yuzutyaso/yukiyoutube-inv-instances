@@ -1,1 +1,1 @@
-['https://invidious.baczek.me/', 'https://invidious.ethibox.fr/', 'https://invidious.flokinet.to/', 'https://invidious.nietzospannend.nl/', 'https://rust.oskamp.nl/', 'https://youtube.lurkmore.com/', 'https://yt.yoc.ovh/']
+['https://invidious.0011.lt/', 'https://invidious.ethibox.fr/', 'https://invidious.nietzospannend.nl/', 'https://rust.oskamp.nl/', 'https://youtube.lurkmore.com/', 'https://yt.yoc.ovh/']

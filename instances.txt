@@ -1,1 +1,1 @@
-['https://inv.nadeko.net/', 'https://inv.zzls.xyz/', 'https://invidious.0011.lt/', 'https://invidious.baczek.me/', 'https://invidious.flokinet.to/', 'https://rust.oskamp.nl/', 'https://yt.yoc.ovh/']
+['https://inv.nadeko.net/', 'https://inv.zzls.xyz/', 'https://invidious.0011.lt/', 'https://rust.oskamp.nl/', 'https://youtube.lurkmore.com/', 'https://yt.yoc.ovh/']

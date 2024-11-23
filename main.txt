@@ -1,7 +1,1 @@
-{
-  'video': [],
-  'search': [],
-  'channel': [],
-  'playlist': [],
-  'comments': []
-}
+{'video': ['https://inv.nadeko.net/', 'https://inv.zzls.xyz/', 'https://invidious.einfachzocken.eu/', 'https://invidious.nerdvpn.de/'], 'search': ['https://inv.nadeko.net/', 'https://inv.zzls.xyz/', 'https://invidious.einfachzocken.eu/', 'https://invidious.nerdvpn.de/', 'https://rust.oskamp.nl/', 'https://youtube.lurkmore.com/', 'https://yt.yoc.ovh/'], 'channel': ['https://inv.nadeko.net/', 'https://inv.zzls.xyz/', 'https://invidious.einfachzocken.eu/', 'https://invidious.nerdvpn.de/', 'https://rust.oskamp.nl/', 'https://youtube.lurkmore.com/', 'https://yt.yoc.ovh/'], 'playlist': ['https://inv.nadeko.net/', 'https://inv.zzls.xyz/', 'https://invidious.einfachzocken.eu/', 'https://invidious.nerdvpn.de/', 'https://rust.oskamp.nl/', 'https://youtube.lurkmore.com/', 'https://yt.yoc.ovh/'], 'comments': ['https://inv.nadeko.net/', 'https://inv.zzls.xyz/', 'https://invidious.einfachzocken.eu/', 'https://invidious.nerdvpn.de/', 'https://rust.oskamp.nl/', 'https://youtube.lurkmore.com/', 'https://yt.yoc.ovh/']}
